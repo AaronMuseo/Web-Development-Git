@@ -1,3 +1,23 @@
 .h1 {
-    color: #DCDE41;
+    color: white;
+    text-align: center;
+
+    text-decoration: underline;
 }
+
+.p1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Comic Sans MS';
+    line-height: 1.5;
+    color: white;
+}
+body {
+    background-color: #FFFFFF;
+    background-image: url(https://wallpapers.com/images/hd/4k-minimalist-mountains-9oitratl6gd996za.jpg);
+    background-repeat: no-repeat;
+}
+
+/* links */
