@@ -2,10 +2,33 @@
 <html>
 <head>
     <title>Contact Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap">
+    <link rel="stylesheet" href="Styles.css" />
 </head>
-<body style="text-align:center;">
+<body class="page3" style="text-align:center; ">
+
+    <nav>
+        <ul>
+            <li style="text-align: center;">
+
+
+                <a href="page1.html">Home Page</a>
+
+
+                <a href="page2.html"> About Me </a>
+
+                <a href="page3.html">Contact Me</a>
+
+
+
+            </li>
+        </ul>
+    </nav>
+
+    <hr style="color: black" />
+
     <h1 style="text-align: center;">Contact Me</h1>
-    
+
     <br />
 
     <table border="1" align="center">
@@ -40,10 +63,15 @@
     <p>If you'd like to get in touch with me, please fill out the form below:</p>
     <form>
         <label for="name">Name:</label>
-        <input  placeholder="Enter name" type="text" id="name" name="name"><br>
+        <input class="inputname" placeholder="Enter name" type="text" id="name" name="name"><br>
 
         <label for="email">Email:</label>
-        <input placeholder="Enter email" type="email" id="email" name="email"><br>
+        <input class="inputemail" placeholder="Enter email" type="email" id="email" name="email"><br>
+
+        <label for="number">Number</label>
+        <input class="inputnumber" placeholder="Enter phone number" type="number" id="number" name="phonenumber"/>
+
+        <br />
 
         <label for="message">Message:</label><br>
         <textarea placeholder="What would you like to tell me?" id="message" name="message" rows="4" cols="50"></textarea><br>
@@ -64,10 +92,28 @@
         <input type="submit" value="Submit">
     </form>
     <hr>
-    <p>For more information, visit the <a href="page1.html">Home Page</a>.</p>
-    <p>Still wanna know something about me, lets go to the <a style="color: orange;" href="page2.html">About Me</a> once more.</p>
+   
 
-    <img src="200.gif"/>
-  
+    <h3>Here are my social media platforms</h3>
+
+    <br />
+    <div class="div3"> 
+
+        <a href="https://github.com/AaronMuseo">Github</a>
+        <a href="https://www.instagram.com/aaron.mnx/">Instagram</a>
+        <a href="https://www.threads.net/@aaron.mnx">Threads</a>
+
+    </div>
+
+    <br />
+    <br />
+
+
+
+
+
+
+    <img src="200.gif" />
+
 </body>
 </html>
