@@ -80,7 +80,7 @@ input,[type=text]{
     box-shadow: 0 0 10px white;
 }
 
-.tr {
+.tr:hover {
     border: 5px solid white;
     box-shadow: 0 0 10px white;
 }
